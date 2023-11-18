@@ -1,4 +1,7 @@
-# RateSwap-Calculator <img src="img/image-removebg-preview.png" height="40" width="40" >
+<div align='center'>
+<img src='img/image-removebg-preview.png' width='150'/>
+<h2>✨RateSwap Calculator✨</h2>
+</div>
 RateSwap Calculator: Effortlessly convert and compare exchange rates with precision. Seamlessly swap between currencies, ensuring you get the best value for your transactions. Your go-to tool for quick and accurate currency exchange calculations.
 
 - A currency converting app that can run `online` or `offline`
