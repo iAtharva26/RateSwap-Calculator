@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, #2d2d2d, #1a1a1a); /* Dark background gradient */
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #3498db; /* Blue heading color */
+}
+
+p {
+  text-align: center;
+  color: #ecf0f1; /* Light text color */
+}
+
+.btn {
+  color: #ecf0f1; /* Light text color */
+  background: linear-gradient(to right, #2ecc71, #3498db); /* Green to blue button gradient */
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px 25px;
+  border: none;
+}
+
+.btn2 {
+  color: #ecf0f1; /* Light text color */
+  background: linear-gradient(to right, #2ecc71, #3498db); /* Green to blue button gradient */
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  width: 100%;
+}
+
+.money-img {
+  width: 150px;
+}
+
+.currency {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.currency select {
+  padding: 10px 20px 10px 10px;
+  border: 1px solid #3498db; /* Blue border */
+  font-size: 16px;
+  color: #2ecc71; /* Green text color */
+  background: #2c3e50; /* Dark background */
+  font-weight: 600;
+}
+
+.currency input {
+  border: 1px solid #2ecc71; /* Green border */
+  background: transparent;
+  font-size: 30px;
+  text-align: right;
+  color: #ecf0f1; /* Light text color */
+  width: 100%;
+}
+
+.swap-rate-container {
+  margin: 25px 0px 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rate {
+  color: #ecf0f1; /* Light text color */
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+select:focus,
+input:focus,
+button:focus {
+  outline: 0;
+}
+
+#amount-two {
+  width: 100%;
+  padding: 4px 16px;
+  text-align: right;
+  font-size: 25px;
+  border: 1px solid #2ecc71; /* Green border */
+}
+
+@media (max-width: 600px) {
+  .currency input {
+    width: 200px;
+  }
+}
